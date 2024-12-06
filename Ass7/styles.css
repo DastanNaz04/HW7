@@ -1,0 +1,62 @@
+body {
+    background: url("https://source.unsplash.com/1600x900/?space,stars") no-repeat center center fixed;
+    background-size: cover;
+    color: #f8f9fa;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+}
+
+#hero-avatar {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+}
+
+#hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+#hero-description,
+.hero-appearance h3 {
+    font-size: 18px;
+    color: #f8f9fa;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #ffdd44;
+    transform: scale(1.05);
+}

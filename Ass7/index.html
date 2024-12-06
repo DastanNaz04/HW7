@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Randomizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img id="hero-avatar" src="https://via.placeholder.com/400x400?text=Star+Wars" alt="Character Avatar">
+        </div>
+        <h1 id="hero-title">Random Star Wars Character</h1>
+        <div class="hero-appearance">
+            <h2 id="hero-description">Birth Year: Unknown</h2>
+            <h3 id="hero-gender">Gender: Unknown</h3>
+            <h3 id="hero-race">Eye Color: Unknown</h3>
+            <h3 id="hero-height">Height: Unknown</h3>
+        </div>
+        <button onclick="fetchStarWarsCharacters()">Get Random Character</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
